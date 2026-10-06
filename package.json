@@ -1,0 +1,15 @@
+{
+  "name": "reportlocal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ReportLocal community reporting web app with Cloudflare Worker, D1, and R2 persistence.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply reportlocal --local",
+    "db:migrate:remote": "wrangler d1 migrations apply reportlocal --remote"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
