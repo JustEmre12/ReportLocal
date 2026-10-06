@@ -1,0 +1,10 @@
+{
+  "name":"ReportLocal",
+  "short_name":"ReportLocal",
+  "description":"See it. Report it. Track it.",
+  "start_url":"./#home",
+  "display":"standalone",
+  "background_color":"#f6f8fc",
+  "theme_color":"#2368da",
+  "icons":[{"src":"assets/reportlocal-mark.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
